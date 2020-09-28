@@ -1,0 +1,14 @@
+{
+  "title": {
+    "value": "The Fun Flash Cards Game"
+  },
+  "questionsPerGame": {
+    "value": "5"
+  },
+  "questionTitle": {
+    "value": "Animals"
+  },
+  "answerTitle": {
+    "value": "Baby Animals"
+  }
+}

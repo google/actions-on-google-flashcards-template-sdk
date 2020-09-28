@@ -1,0 +1,532 @@
+{
+  "actions": {
+    "custom": {
+      "actions.intent.MAIN": {},
+      "actions.intent.PLAY_GAME": {}
+    }
+  },
+  "intents": {
+    "DontKnow": {
+      "trainingPhrases": [
+        "aku tak tahu",
+        "saya tidak tahu",
+        "gue gak tau",
+        "aku menyerah",
+        "nyerah deh",
+        "gw nyerah",
+        "aku tidak tahu",
+        "saya gak tahu",
+        "gak tau deh",
+        "gak tahu",
+        "tidak tahu",
+        "tauk ah",
+        "yang ini gak tahu",
+        "saya gak tahu yang ini",
+        "apaan nih",
+        "aku gak ngerti pertanyaannya",
+        "apa sih pertanyaannya",
+        "pertanyaan apa nih",
+        "siapa yang tahu",
+        "siapa tahu",
+        "siapa juga yang tau",
+        "aku gak tahu yang itu",
+        "saya tak tahu yang itu",
+        "gue gak tau itu",
+        "gak yakin",
+        "nggak tau pasti",
+        "kagak yakin",
+        "nggak tahu",
+        "ga tau nih",
+        "gelap ah",
+        "saya gak tau",
+        "aku gak tau",
+        "gw ga tau",
+        "aku nggak tahu jawabannya",
+        "saya gak tahu jawabannya",
+        "gw ga tau jawabannya",
+        "ga tau deh",
+        "gak paham",
+        "gak kepikiran",
+        "gak ada bayangan",
+        "ga kepikiran sama sekali",
+        "gak ada ide",
+        "aku tak bisa jawab itu",
+        "saya tak bisa jawab yang itu",
+        "gue gak bisa jawab",
+        "itu aku nggak tahu",
+        "itu saya tidak tahu",
+        "itu gue gak tau",
+        "saya tidak yakin",
+        "gue ga yakin",
+        "aku gak bisa nebak",
+        "saya tak tahu sedikit pun",
+        "gue gak ada ide",
+        "tak tahu",
+        "gak tau"
+      ]
+    },
+    "Help": {
+      "trainingPhrases": [
+        "tolong saya",
+        "Bantu saya",
+        "bantuan",
+        "bagaimana cara kerja game ini?",
+        "bagaimana game ini bekerja?",
+        "apa yang harus saya lakukan?",
+        "cara kerja game ini seperti apa?",
+        "saya harus bagaimana?",
+        "saya harus melakukan apa?"
+      ]
+    },
+    "Hint": {
+      "trainingPhrases": [
+        "Petunjuk",
+        "petunjuk",
+        "bisa kasih petunjuk",
+        "kasih petunjuk dong",
+        "petunjuknya apa",
+        "boleh dapat petunjuk",
+        "boleh kasih petunjuk",
+        "ada petunjuk",
+        "jawabannya apa",
+        "apa jawabannya?",
+        "apa jawaban yang benar?",
+        "contekan",
+        "beri petunjuk",
+        "kalau ada petunjuk",
+        "coba ada petunjuknya",
+        "ada petunjuknya gak",
+        "minta petunjuk",
+        "minta petunjuk dong",
+        "mau petunjuk dong",
+        "kasih aku petunjuk",
+        "aku minta petunjuk",
+        "contekan"
+      ]
+    },
+    "No": {
+      "trainingPhrases": [
+        "da-da",
+        "tidak perlu",
+        "tidak, terima kasih",
+        "tidak sama sekali",
+        "tidak",
+        "lewati",
+        "saya tidak ingin",
+        "tidak mau",
+        "tidak ingin"
+      ]
+    },
+    "Quit": {
+      "trainingPhrases": [
+        "saya berhenti bermain game",
+        "nonaktifkan",
+        "hentikan bermain game",
+        "hentikan",
+        "keluar",
+        "berhenti",
+        "berhenti bermain game",
+        "saya tidak akan meneruskan game",
+        "matikan",
+        "hentikan game",
+        "batal",
+        "batalkan",
+        "tutup",
+        "saya tidak ingin bermain lagi"
+      ]
+    },
+    "Repeat": {
+      "trainingPhrases": [
+        "ulang lagi pertanyaannya",
+        "ulang lagi",
+        "saya tidak paham",
+        "bisa diulang?",
+        "tolong agak keras",
+        "bisa ucapkan lagi",
+        "tidak paham",
+        "tolong ucapkan lagi",
+        "tolong ulangi",
+        "ulangi sekali lagi",
+        "tidak bisa didengar",
+        "tidak mengerti",
+        "saya tidak dengar",
+        "tidak kedengaran",
+        "saya tidak mengerti"
+      ]
+    },
+    "Restart": {
+      "trainingPhrases": [
+        "Main Lagi",
+        "mulai dari awal",
+        "mulai lagi dari awal",
+        "Ulangi dari awal",
+        "mulai ulang game",
+        "setel ulang",
+        "ulang dari awal",
+        "atur ulang",
+        "restart game",
+        "mulai lagi game",
+        "mainkan game lagi",
+        "mainkan lagi"
+      ]
+    },
+    "Skip": {
+      "trainingPhrases": [
+        "lewati pertanyaan ini",
+        "langsung lompati",
+        "lewati",
+        "pertanyaan berikutnya",
+        "lompati pertanyaan ini",
+        "pertanyaan selanjutnya",
+        "lompat ke pertanyaan lain",
+        "lompati",
+        "selanjutnya",
+        "berikutnya",
+        "lanjut",
+        "terus",
+        "terusin",
+        "lanjutin",
+        "kasih lagi",
+        "aku mau lagi",
+        "lagi",
+        "lewat",
+        "lewati yang ini",
+        "coba yang berikutnya",
+        "skip",
+        "skip yang ini",
+        "lewati",
+        "lewati saja",
+        "lewat aja",
+        "pertanyaan berikutnya",
+        "pertanyaan selanjutnya",
+        "pertanyaan sesudahnya",
+        "pass",
+        "pass aja",
+        "pass deh"
+      ]
+    },
+    "Start": {
+      "trainingPhrases": [
+        "mulai",
+        "langsung mainkan",
+        "ayo mulai",
+        "ingin langsung main",
+        "oke, ayo main",
+        "buka",
+        "ayo cepat mulai",
+        "sudah tidak sabar",
+        "langsung mulai game"
+      ]
+    },
+    "TryAgain": {
+      "trainingPhrases": [
+        "Coba lagi",
+        "coba lagi",
+        "ya, aku mau coba",
+        "ya, coba deh",
+        "coba ah",
+        "aku mau coba",
+        "saya mau coba",
+        "gua mau coba",
+        "sekali lagi",
+        "coba satu kali lagi",
+        "ya, lagi",
+        "ya, coba lagi",
+        "ya, sekali lagi",
+        "ok, lagi",
+        "ok, coba lagi",
+        "ok, sekali lagi",
+        "oke, coba lagi",
+        "ok, lagi deh",
+        "ok deh lagi",
+        "ya aku mau coba lagi",
+        "ya saya mau mencoba lagi",
+        "ya deh lagi",
+        "boleh coba lagi",
+        "boleh coba lagi?",
+        "mau coba lagi",
+        "saya mau coba pertanyaan sebelumnya",
+        "aku mau coba pertanyaan yang tadi",
+        "gw mau coba pertanyaan sebelumnya",
+        "aku mau coba sekali lagi",
+        "saya mau mencoba sekali lagi",
+        "gw mo nyoba sekali lagi",
+        "lagi",
+        "lagi dong",
+        "lagi ah",
+        "aku mau coba lagi",
+        "saya mau mencoba lagi",
+        "gue mo nyoba lagi",
+        "coba lagi dong",
+        "coba lagi ah",
+        "nyoba lagi"
+      ]
+    },
+    "Yes": {
+      "trainingPhrases": [
+        "OK",
+        "bisa",
+        "mengapa tidak",
+        "kenapa tidak",
+        "baiklah",
+        "oke",
+        "sepertinya begitu",
+        "saya rasa begitu",
+        "tentu",
+        "Ya",
+        "pasti",
+        "tentu saja",
+        "tampaknya seperti itu"
+      ]
+    }
+  },
+  "types": {
+    "answer": {
+      "synonym": {}
+    }
+  },
+  "strings": {
+    "GREETING_PROMPTS_1": [
+      "Selamat datang di $session.params.title."
+    ],
+    "GREETING_PROMPTS_2": [
+      "Selamat datang kembali di $session.params.title.",
+      "Sip! Anda kembali lagi di $session.params.title."
+    ],
+    "INTRODUCTION_PROMPTS": [
+      "Ayo kita segarkan kembali ingatan Anda.",
+      "Mari kita lihat sejauh mana ingatan Anda."
+    ],
+    "INSTRUCTION_PROMPTS": [
+      "Dalam game ini, saya akan tanya beberapa pertanyaan tentang $session.params.questionTitle. "
+    ],
+    "FIRST_ROUND_PROMPTS": [
+      "Ini pertanyaan pertama untuk Anda.",
+      "Oke. Pertanyaan pertama:",
+      "Baiklah, pertanyaan nomor 1.",
+      "Oke, ini dia pertanyaan pertama.",
+      "Pertanyaan pertama.",
+      "Oke. Mari kita mulai. "
+    ],
+    "NEXT_QUESTION_PROMPTS": [
+      "Ayo kita coba pertanyaan lain.",
+      "Pertanyaan selanjutnya.",
+      "Pertanyaan lainnya.",
+      "Pertanyaan berikutnya",
+      "Mari coba yang lainnya.",
+      "Coba pertanyaan yang ini.",
+      "Gimana kalau yang ini?",
+      "Pertanyaan selanjutnya.",
+      "Berikutnya.",
+      "Ini pertanyaan selanjutnya."
+    ],
+    "I_DONT_KNOW_PROMPTS": [
+      "Oke."
+    ],
+    "WRONG_ANSWER_PROMPTS_1": [
+      "Maaf.",
+      "Bukan itu jawabannya.",
+      "Jawabannya bukan itu.",
+      "Kurang tepat.",
+      "Maaf, tapi kurang tepat.",
+      "Salah. ",
+      "Salah, bukan itu jawabannya."
+    ],
+    "WRONG_ANSWER_PROMPTS_2": [
+      "Jawabannya adalah $session.params.previousAnswer."
+    ],
+    "CONFIRMATION_PROMPTS": [
+      "Tentu.",
+      "Oke."
+    ],
+    "HINT_PROMPTS": [
+      "Petunjuk: $session.params.currentQuestion.hint",
+      "Petunjuknya adalah: $session.params.currentQuestion.hint",
+      "$session.params.currentQuestion.hint"
+    ],
+    "HINT_QUESTION_PROMPTS": [
+      "Menurut Anda apa jawabannya?",
+      "Jadi apa jawabannya?"
+    ],
+    "RE_PROMPTS": [
+      "Oke, sekarang kita coba jawab lagi.",
+      "Baiklah, kita coba sekali lagi.",
+      "Ayo kita coba jawab lagi sama-sama."
+    ],
+    "WRONG_ANSWER_FOR_QUESTION_PROMPTS": [
+      "Jawabannya tidak tepat, hati-hati nanti jangan salah lagi."
+    ],
+    "QUIT_PROMPTS": [
+      "Senang bisa main bareng. Kita ngobrol lagi nanti ya.",
+      "Sampai jumpa lagi. Saya nggak kemana-mana, tinggal panggil saja.",
+      "Semoga hari Anda menyenangkan! Semoga kita bisa cepat ketemu lagi.",
+      "Tidak masalah. Sampai jumpa lagi.",
+      "Oke, saya sudahi dulu. Sampai jumpa ya.",
+      "Sampai jumpa lagi.",
+      "Semoga kita bisa segera main lagi."
+    ],
+    "PLAY_AGAIN_QUESTION_PROMPTS": [
+      "Mau coba bermain lagi?"
+    ],
+    "NO_MATCH_PROMPTS_2": [
+      "Saya masih belum paham. Ini saya ulangi pertanyaannya: $session.params.currentQuestion.question"
+    ],
+    "NO_MATCH_PROMPTS_3": [
+      "Karena saya masih mengalami masalah, kita sudahi dulu di sini. Coba lagi dalam beberapa menit."
+    ],
+    "REPEAT_PROMPTS": [
+      "Baiklah.",
+      "Oke.",
+      "Betul."
+    ],
+    "SKIP_PROMPTS": [
+      "Lanjut ke pertanyaan berikutnya.",
+      "Teruskan permainannya.",
+      "Jangan kemana-mana.",
+      "Mari kita coba yang berikutnya.",
+      "Baiklah.",
+      "Tentu.",
+      "Tentunya.",
+      "Oke.",
+      "Gak apa-apa, ayo kita coba yang lain.",
+      "Pas.",
+      "Oke deh. Kita loncat ke pertanyaan berikutnya."
+    ],
+    "FEELING_LUCKY_PROMPTS_1": [
+      "Anda lagi beruntung. Saya punya kabar baik. Untuk kali ini saja, saya akan kasih tahu jawaban untuk salah satu pertanyaannya. Sudah siap? Jawaban untuk \"$session.params.currentQuestion.question\" adalah $session.params.currentQuestion.answers. Saatnya lanjut ke pertanyaan berikutnya."
+    ],
+    "FEELING_LUCKY_PROMPTS_2": [
+      "Maaf, tapi sepertinya keberuntungan Anda sudah habis. Saya cuma bisa beri tahu jawaban untuk 1 pertanyaan di setiap permainan. Saya yakin Anda bisa jawab sendiri. Ayo kita lanjutkan."
+    ],
+    "TRY_OR_HINT_PROMPTS": [
+      "Butuh petunjuk?",
+      "Mau dapat petunjuk?",
+      "Anda butuh petunjuk?",
+      "Saya bisa beri petunjuk untuk pertanyaan ini. Mau tahu?",
+      "Apa Anda mau petunjuk?"
+    ],
+    "AGAIN_HINT_PROMPTS": [
+      "Mau coba lagi, atau, butuh petunjuk?",
+      "Butuh petunjuk, atau, mau coba lagi?",
+      "Apa Anda perlu petunjuk?",
+      "Butuh petunjuk atau ingin coba lagi?",
+      "Mau petunjuk, atau, coba lagi?",
+      "Saya bisa kasih petunjuk, atau, Anda bisa coba jawab lagi. Pilih yang mana? "
+    ],
+    "NO_HINT_PROMPTS": [
+      "Maaf saya tidak punya petunjuk. Biar saya ulangi pertanyaannya:"
+    ],
+    "NO_MORE_HINT_PROMPTS": [
+      "Maaf, saya tidak punya petunjuk lagi. Biar saya ulangi pertanyaannya:"
+    ],
+    "SILLY_ANSWER_PROMPTS": [
+      "Maaf, tapi bukan itu jawabannya."
+    ],
+    "RIGHT_ANSWER_PROMPTS_1": [
+      "Pintar. Anda betul.",
+      "Hebat! Jawabannya benar.",
+      "Bagus.",
+      "Bagus sekali!",
+      "Baguuus.",
+      "Hebat!",
+      "Bagus sekali.",
+      "Keren! Maju terus!",
+      "Wow, keren! Anda memang hebat.",
+      "Super sekali! Anda memang jago!",
+      "Teruskan!",
+      "Sepertinya jawaban Anda benar.",
+      "Berhasil! ",
+      "Bagus.",
+      "Bagus sekali.",
+      "Keren. Lanjutkan lagi.",
+      "Benar. Bagus sekali.",
+      "Jawaban Anda benar.",
+      "Benar sekali!",
+      "Jawaban Anda benar. Keren banget sih!",
+      "Oke banget.",
+      "Ya.",
+      "Ya. Anda hebat.",
+      "Ya. Jawaban Anda benar.",
+      "Anda berhasil. Hebat!",
+      "Anda berhasil.",
+      "Anda benar.",
+      "Jawabannya benar!",
+      "Jawabannya benar.",
+      "Anda benar. Keren deh.",
+      "Jawaban yang bagus. Benar sekali.",
+      "Anda benar!"
+    ],
+    "DISAGREE_PROMPTS": [
+      "Saya sudah cek jawabanmya. Jawabannya benar."
+    ],
+    "NONE_CORRECT_PROMPTS": [
+      "Sayang sekali. Ini akhir permainan $session.params.title. Anda belum bisa jawab semua pertanyaan dengan benar, tapi Anda bisa latihan kapan saja.",
+      "Babak ini $session.params.title ini cukup sulit. Belum ada jawaban yang benar sejauh ini, tapi jangan patah semangat."
+    ],
+    "SOME_CORRECT_PROMPTS": [
+      "Dan itulah akhir dari $session.params.title. Terima kasih sudah main bersama dan melewati semua babak. Anda menjawab benar $session.params.score dari $session.params.limit pertanyaan. Teruslah berlatih. Bisa karena biasa.",
+      "Selamat. Anda berhasil menyelesaikan $session.params.title. Saya tadi menghitung, Anda berhasil jawab $session.params.score dari $session.params.limit pertanyaan dengan benar.",
+      "Anda berhasil. Anda menyelesaikan semua babak $session.params.title. Anda jawab $session.params.score dari $session.params.limit pertanyaan dengan benar. Permainan ini butuh banyak latihan.",
+      "Anda berhasil menyelesaikan $session.params.title, dan jawab $session.params.score dari $session.params.limit pertanyaan dengan benar. Skor Anda ada di antara nol dan angka sempurna. Lumayan! "
+    ],
+    "ALL_CORRECT_PROMPTS": [
+      "Luar biasa. Setelah $session.params.limit babak, Anda bisa jawab semua pertanyaan dengan benar. Benar sekali! Usaha Anda tidak sia-sia. Boleh minta tepuk tangan?",
+      "Mau dengar kabar baik? Anda berhasil jawab $session.params.limit pertanyaan dengan benar. Saya punya 1 pertanyaan lagi untuk Anda. Anda tahu sekarang waktunya untuk apa? Sekarang waktunya kita merayakan.",
+      "Perhatian! Perhatian! Bapak-bapak, ibu-ibu, semua yang ada di sini, ketahuilah bahwa pemain ini telah berhasil menaklukkan setiap babak permainan, $session.params.limit pertanyaan berhasil dijawab dengan benar. Terima kasih telah bermain dengan sangat menakjubkan.",
+      "Awalnya saya pikir, apa itu mungkin? Memangnya bisa? Dan bukan main, ternyata bisa. Anda jawab seluruh $session.params.limit pertanyaan dengan benar. Saya punya hadiah. Saya akan mainkan irama gembira untuk merayakan. Selamat menikmati!"
+    ],
+    "END_PROMPTS": [
+      "Oke. Skornya $session.params.score dari $session.params.limit. Sepertinya Anda perlu latihan lagi. Sampai ketemu lagi nanti."
+    ],
+    "HELP_PROMPTS": [
+      "Begini cara mainnya. Pertama, saya akan berikan Anda pertanyaan. Lalu saya akan tunggu jawabannya. Kalau Anda kesulitan, Anda bisa minta petunjuk, atau lewati pertanyaannya. Akan ada $session.params.limit babak pertanyaan dalam permainan ini. Anda juga bisa mulai permainan baru, menghentikan permainan yang sedang berlangsung, atau bahkan minta ulangi pertanyaannya. Masih ingin lanjut main?",
+      "Saya beri petunjuk. Saat saya memberikan pertanyaan, beri jawaban yang menurut Anda paling benar. Kalau mengalami kesulitan, Anda bisa minta petunjuk atau lewati pertanyaannya. Akan ada $session.params.limit pertanyaan dalam permainan ini. Anda juga bisa mulai permainan baru, menghentikan permainan yang sedang berlangsung, atau bahkan minta ulangi pertanyaannya. Masih ingin lanjut main?"
+    ],
+    "LETS_PLAY_PROMPTS": [
+      "Sudah siap main?",
+      "Siap bermain?"
+    ],
+    "FINAL_ROUND_PROMPTS": [
+      "Dan yang terakhir:"
+    ],
+    "NO_INPUT_PROMPTS_1": [
+      "Ini pertanyaannya lagi: $session.params.currentQuestion.question"
+    ],
+    "NO_INPUT_PROMPTS_2": [
+      "Anda tadi bilang sesuatu? Saya tidak dengar. Ini pertanyaannya: $session.params.currentQuestion.question"
+    ],
+    "NO_INPUT_PROMPTS_3": [
+      "Karena saya masih mengalami masalah. Kita sudahi dulu di sini. Coba lagi dalam beberapa menit."
+    ],
+    "FALLBACK_PROMPTS_1": [
+      "Sudah selesai main?",
+      "Mau berhenti main?",
+      "Anda sudah selesai?"
+    ],
+    "YES_CHIPS": [
+      "Ya"
+    ],
+    "NO_CHIPS": [
+      "Tidak"
+    ],
+    "TRUE_CHIPS": [
+      "Benar"
+    ],
+    "FALSE_CHIPS": [
+      "Salah"
+    ],
+    "HINT_CHIPS": [
+      "Petunjuk"
+    ],
+    "TRY_AGAIN_CHIPS": [
+      "Coba lagi"
+    ]
+  },
+  "settings": {
+    "localizedSettings": {
+      "displayName": "sampel kartu flash",
+      "pronunciation": "sampel kartu flash",
+      "voice": "female_1"
+    }
+  }
+}

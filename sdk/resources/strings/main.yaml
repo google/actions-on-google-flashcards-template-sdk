@@ -1,0 +1,59 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+AGAIN_HINT: $resources.strings.main.AGAIN_HINT_PROMPTS
+ALL_CORRECT: $resources.strings.main.ALL_CORRECT_PROMPTS
+CONFIRMATION: $resources.strings.main.CONFIRMATION_PROMPTS
+DISAGREE: $resources.strings.main.DISAGREE_PROMPTS
+END: $resources.strings.main.END_PROMPTS
+FALLBACK: $resources.strings.main.FALLBACK_PROMPTS_1
+FALSE_CHIP: $resources.strings.main.FALSE_CHIPS
+FEELING_LUCKY_1: $resources.strings.main.FEELING_LUCKY_PROMPTS_1
+FEELING_LUCKY_2: $resources.strings.main.FEELING_LUCKY_PROMPTS_2
+FINAL_ROUND: $resources.strings.main.FINAL_ROUND_PROMPTS
+FIRST_ROUND: $resources.strings.main.FIRST_ROUND_PROMPTS
+GREETING_1: $resources.strings.main.GREETING_PROMPTS_1
+GREETING_2: $resources.strings.main.GREETING_PROMPTS_2
+HELP: $resources.strings.main.HELP_PROMPTS
+HINT: $resources.strings.main.HINT_PROMPTS
+HINT_CHIP: $resources.strings.main.HINT_CHIPS
+HINT_QUESTION: $resources.strings.main.HINT_QUESTION_PROMPTS
+I_DONT_KNOW: $resources.strings.main.I_DONT_KNOW_PROMPTS
+INSTRUCTION: $resources.strings.main.INSTRUCTION_PROMPTS
+INTRODUCTION: $resources.strings.main.INTRODUCTION_PROMPTS
+LETS_PLAY: $resources.strings.main.LETS_PLAY_PROMPTS
+NEXT_QUESTION: $resources.strings.main.NEXT_QUESTION_PROMPTS
+NO_CHIP: $resources.strings.main.NO_CHIPS
+NO_HINT: $resources.strings.main.NO_HINT_PROMPTS
+NO_INPUT_1: $resources.strings.main.NO_INPUT_PROMPTS_1
+NO_INPUT_2: $resources.strings.main.NO_INPUT_PROMPTS_2
+NO_INPUT_3: $resources.strings.main.NO_INPUT_PROMPTS_3
+NO_MATCH_2: $resources.strings.main.NO_MATCH_PROMPTS_2
+NO_MATCH_3: $resources.strings.main.NO_MATCH_PROMPTS_3
+NO_MORE_HINT: $resources.strings.main.NO_MORE_HINT_PROMPTS
+NONE_CORRECT: $resources.strings.main.NONE_CORRECT_PROMPTS
+PLAY_AGAIN_QUESTION: $resources.strings.main.PLAY_AGAIN_QUESTION_PROMPTS
+QUIT: $resources.strings.main.QUIT_PROMPTS
+RE: $resources.strings.main.RE_PROMPTS
+REPEAT: $resources.strings.main.REPEAT_PROMPTS
+RIGHT_ANSWER: $resources.strings.main.RIGHT_ANSWER_PROMPTS_1
+SILLY_ANSWER: $resources.strings.main.SILLY_ANSWER_PROMPTS
+SKIP: $resources.strings.main.SKIP_PROMPTS
+SOME_CORRECT: $resources.strings.main.SOME_CORRECT_PROMPTS
+TRUE_CHIP: $resources.strings.main.TRUE_CHIPS
+TRY_AGAIN_CHIP: $resources.strings.main.TRY_AGAIN_CHIPS
+TRY_OR_HINT: $resources.strings.main.TRY_OR_HINT_PROMPTS
+WRONG_ANSWER_1: $resources.strings.main.WRONG_ANSWER_PROMPTS_1
+WRONG_ANSWER_2: $resources.strings.main.WRONG_ANSWER_PROMPTS_2
+WRONG_ANSWER_FOR_QUESTION: $resources.strings.main.WRONG_ANSWER_FOR_QUESTION_PROMPTS
+YES_CHIP: $resources.strings.main.YES_CHIPS

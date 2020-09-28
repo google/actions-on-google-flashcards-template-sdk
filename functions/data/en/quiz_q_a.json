@@ -1,0 +1,250 @@
+[
+  {
+    "question": "What's the baby animal name for Alligator?",
+    "answers": [
+      "hatchling"
+    ],
+    "hint": "This baby animal name starts with an \"H\".",
+    "followUp": "According to wikipedia, Alligators are only native to the United States and China."
+  },
+  {
+    "question": "What's the baby animal name for Ant?",
+    "answers": [
+      "antling"
+    ],
+    "hint": "This baby animal name starts with an \"A\".",
+    "followUp": "According to wikipedia, Ants go through four stages of development: egg, larva, pupa, and adult."
+  },
+  {
+    "question": "What's the baby animal name for Baboon?",
+    "answers": [
+      "infant"
+    ],
+    "hint": "This should be the most familiar. It's another name for a human baby.",
+    "followUp": "According to National geographic.com, Baboons  weigh anywhere between 33 to 82 lbs."
+  },
+  {
+    "question": "What's the baby animal name for Bear?",
+    "answers": [
+      "cub"
+    ],
+    "hint": "This name is the same as a baby lion.",
+    "followUp": "Here's a fun fact. Black bear cubs will stay with their very protective mother for about two years"
+  },
+  {
+    "question": "What's the baby animal name for Bee?",
+    "answers": [
+      "larva"
+    ],
+    "hint": "This one starts with an \"L\".",
+    "followUp": "One single bee colony can pollinate 300 million flowers each day according to Ted.com"
+  },
+  {
+    "question": "What's the baby animal name for Bird?",
+    "answers": [
+      "hatchling"
+    ],
+    "hint": "This one starts with an \"H\".",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Camel?",
+    "answers": [
+      "calf"
+    ],
+    "hint": "This name is the same as a baby cow.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Cat?",
+    "answers": [
+      "kitten"
+    ],
+    "hint": "This baby animal name starts with a \"K\".",
+    "followUp": "“Kitten” comes from old French, and literally means “Little Cat”."
+  },
+  {
+    "question": "What's the baby animal name for Chicken?",
+    "answers": [
+      "chick"
+    ],
+    "hint": "This baby animal name starts with a \"C\".",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Cockroach?",
+    "answers": [
+      "nymph"
+    ],
+    "hint": "This baby name rhymes with the word, Lymph",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Deer?",
+    "answers": [
+      "fawn"
+    ],
+    "hint": "This name starts with the letter, F",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Dog?",
+    "answers": [
+      "pup"
+    ],
+    "hint": "This is similar to a baby dolphin.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Dolphin?",
+    "answers": [
+      "pup"
+    ],
+    "hint": "This is similar to a baby dog.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Elephant?",
+    "answers": [
+      "calf"
+    ],
+    "hint": "This name is the same as a baby cow.",
+    "followUp": "According to animal fact guide.com The calf stays with its mother for 3-6 years."
+  },
+  {
+    "question": "What's the baby animal name for Hamster?",
+    "answers": [
+      "pup"
+    ],
+    "hint": "This name starts with the letter, P",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Horse?",
+    "answers": [
+      "foal"
+    ],
+    "hint": "This name starts with the letter, F",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Human?",
+    "answers": [
+      "baby"
+    ],
+    "hint": "This name starts with the letter, B",
+    "followUp": "Human babies are the only primates who smile at their parents."
+  },
+  {
+    "question": "What's the baby animal name for Leopard?",
+    "answers": [
+      "cub"
+    ],
+    "hint": "This name is the same as a baby lion.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Monkey?",
+    "answers": [
+      "infant"
+    ],
+    "hint": "This should be the most familiar. Its another name for a human baby.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Mouse?",
+    "answers": [
+      "pup"
+    ],
+    "hint": "the name for a baby mouse rhymes with the word, cup.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Panda?",
+    "answers": [
+      "cub"
+    ],
+    "hint": "This name is the same as a baby lion.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Penguin?",
+    "answers": [
+      "chick"
+    ],
+    "hint": "This is similar to a baby chicken.",
+    "followUp": "According to penguin's world.com, Baby penguins are born completely covered with gray, white or brown plumage, which changes as they grow."
+  },
+  {
+    "question": "What's the baby animal name for Pig?",
+    "answers": [
+      "piglet"
+    ],
+    "hint": "This baby animal name starts with a \"P\" as well.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Pigeon?",
+    "answers": [
+      "squab"
+    ],
+    "hint": "This name starts with the letter, S",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Rabbit?",
+    "answers": [
+      "kitten"
+    ],
+    "hint": "This baby animal name rhymes with the word, Smitten.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Rat?",
+    "answers": [
+      "pup"
+    ],
+    "hint": "This baby animal name rhymes with the word, cup.",
+    "followUp": "According to pet education.com,  pups are born hairless and toothless. They will start to have hair at 7 days old, and their eyes generally open when they are 13-14 days old."
+  },
+  {
+    "question": "What's the baby animal name for Shark?",
+    "answers": [
+      "pup"
+    ],
+    "hint": "The baby animal name for shark is similar to the one for a baby dog.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Squirrel?",
+    "answers": [
+      "pup"
+    ],
+    "hint": "This baby animal name is the same as that of a dog.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Tiger?",
+    "answers": [
+      "cub"
+    ],
+    "hint": "This name is the same as the one for a  baby lion.",
+    "followUp": ""
+  },
+  {
+    "question": "What's the baby animal name for Whale?",
+    "answers": [
+      "calf"
+    ],
+    "hint": "This name is the same as a baby cow.",
+    "followUp": "Blue whale calves drink 100 gallons of milk every day for the first seven months after birth."
+  },
+  {
+    "question": "What's the baby animal name for Zebra?",
+    "answers": [
+      "colt"
+    ],
+    "hint": "This baby animal name starts with the letter, C,  and rhymes with Jolt.",
+    "followUp": ""
+  }
+]

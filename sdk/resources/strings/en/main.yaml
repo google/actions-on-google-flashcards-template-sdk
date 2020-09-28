@@ -1,0 +1,233 @@
+# Copyright 2020 Google LLC
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+AGAIN_HINT_PROMPTS:
+- Wanna try again, or, get a hint?
+- Wanna get a hint, or, try again?
+- Would you like a hint?
+- Would you like a hint, or, would you like to try again?
+- Do you wanna hint, Or, try again?
+- 'I can either give you a hint, or you can just try again. Which would you like? '
+ALL_CORRECT_PROMPTS:
+- I can't believe it. After $session.params.limit rounds, you matched every single
+  one correctly. Thats right. You did fantastic work and it payed off. Can we get
+  a round of applause?.
+- Wanna hear some good news? You aced every one of the $session.params.limit
+  questions. I have one last question for you. Do you know what time it is? Well,
+  Its time to party.
+- Hear Ye. Hear ye. To all those listening, let it be known that this player has aced
+  every single round, getting all $session.params.limit questions correct. Thank
+  you for playing a fantastic game.
+- At the beginning I thought, can it be done? Will it happen? And lo and behold, it
+  did. You answered every single one of the $session.params.limit questions right.
+CONFIRMATION_PROMPTS:
+- Sure.
+- Okay.
+DISAGREE_PROMPTS:
+- I double-checked. The answer is correct.
+END_PROMPTS:
+- Ok. Your score was $session.params.score out of $session.params.limit.
+  I hope you practice again soon. See you later.
+FALLBACK_PROMPTS_1:
+- Are you done playing?
+- Would you like to wrap up?
+- Are you finished?
+FALSE_CHIPS:
+- "False"
+FEELING_LUCKY_PROMPTS_1:
+- So. You're feeling lucky. Well I've got some good news. Just this once, I'm going
+  to give you the answer to one of the questions. Are you ready? The answer for "$session.params.currentQuestion.question"
+  is $session.params.currentQuestion.answers. Time to move on to the next one.
+FEELING_LUCKY_PROMPTS_2:
+- Sorry, but it looks like your luck ran out. I can only give the answer to one lucky
+  question per game. I think you can do this on your own. Let's move on.
+FINAL_ROUND_PROMPTS:
+- 'And lastly:'
+- 'And finally:'
+FIRST_ROUND_PROMPTS:
+- Here is your first question.
+- 'Okay. First up:'
+- All right, question number one.
+- Okay, here's your first one.
+- Here's the first one.
+- 'Okay. Let''s start. '
+GREETING_PROMPTS_1:
+- Welcome to $session.params.title.
+GREETING_PROMPTS_2:
+- Welcome back to $session.params.title.
+- Great! You came back to $session.params.title.
+HELP_PROMPTS:
+- Here's some help on how to play. First, I'll ask you a question. Then I'll wait
+  for you to say the answer. If you can't think of one, you can ask for a hint, or
+  you can skip the question. There will be $session.params.limit rounds of questions.
+  You can also start a new game, stop the current game, or even ask for the question
+  to be repeated. Do you want to continue?
+- Here's some help. When I ask you a question, just give me the answer you think fits
+  best. If you can't think of an answer, you can ask for a hint, or you can skip the
+  question. There will be $session.params.limit rounds of questions. You can
+  also start a new game, stop the current game, or even ask for the question to be
+  repeated. Do you want to continue?
+HINT_CHIPS:
+- Hint
+HINT_PROMPTS:
+- 'Here is your hint: $session.params.currentQuestion.hint'
+- 'Your hint is: $session.params.currentQuestion.hint'
+- $session.params.currentQuestion.hint
+HINT_QUESTION_PROMPTS:
+- What do you think it is?
+- Now what's your answer?
+I_DONT_KNOW_PROMPTS:
+- OK.
+INSTRUCTION_PROMPTS:
+- 'In this game, I''ll ask you some questions about $session.params.questionTitle. '
+INTRODUCTION_PROMPTS:
+- Let's boost that memory.
+- Let's see if we can boost that memory.
+LETS_PLAY_PROMPTS:
+- Are you ready to play?
+- Ready to play?
+NEXT_QUESTION_PROMPTS:
+- Let's try another.
+- Here's the next one.
+- Here's another.
+- Here's the next one
+- Let's try another one.
+- Try this one.
+- How about this one.
+- Next question.
+- Next up.
+- Here's the next question.
+NO_CHIPS:
+- "No"
+NO_HINT_PROMPTS:
+- 'Sorry, I don''t have a hint for you. Here is the question again:'
+NO_INPUT_PROMPTS_1:
+- 'Here is the question again: $session.params.currentQuestion.question'
+NO_INPUT_PROMPTS_2:
+- 'If you said something, I didn''t hear it. Here is the question: $session.params.currentQuestion.question'
+NO_INPUT_PROMPTS_3:
+- Since I'm having trouble. Let's stop here. Try again in a few minutes.
+NO_MATCH_PROMPTS_2:
+- 'I still didn''t get that. Here is the question again: $session.params.currentQuestion.question'
+NO_MATCH_PROMPTS_3:
+- Since I'm still having trouble, I'll stop here. Try again in a few minutes.
+NO_MORE_HINT_PROMPTS:
+- 'Sorry, I don''t have more hints for you. Here is the question again:'
+NONE_CORRECT_PROMPTS:
+- Well? That's the end of $session.params.title. You didn't answer any of the
+  questions correctly yet, but the good news, is you can practice any time you want.
+- This round of $session.params.title was a bit tough. No matches correct so
+  far, but don't lose hope.
+PLAY_AGAIN_QUESTION_PROMPTS:
+- Do you want to try another set?
+QUIT_PROMPTS:
+- Its been great working with you. Talk to you soon.
+- See you next time. I'll be here, just ask.
+- Have a good one. Hope to see you again soon.
+- No problem. See you next time.
+- All right, I've wrapped it up. See you soon.
+- See you next time.
+- I hope to play with you soon.
+RE_PROMPTS:
+- Okay, let's try tackling that again.
+- All right, here we go one more time.
+- Let's try together one more time.
+REPEAT_PROMPTS:
+- Right-oh.
+- OK.
+- You got it.
+RIGHT_ANSWER_PROMPTS_1:
+- Brilliant. You got it.
+- Excellent! That's correct.
+- Good.
+- Good work.
+- Goooood.
+- Great!
+- Great job.
+- Great job. Way to go!
+- I'm impressed. Great job.
+- Impressive. Great job.
+- Look at you go.
+- Looks like you got it right.
+- 'Nailed it. '
+- Nice.
+- Nice job.
+- Perfect. Way to go.
+- Right. Good job.
+- That's correct.
+- That's right!
+- That's right. Nice work.
+- Well done.
+- Yep. That's it.
+- Yes.
+- Yes. Great job.
+- Yes. That's right.
+- You called it. Great job.
+- You did it!
+- You got it.
+- You got it right!
+- You got it right.
+- You got it. Good job.
+- You're clever. That's right.
+- You're right!
+SILLY_ANSWER_PROMPTS:
+- I see what you did there, but that's not right.
+SKIP_PROMPTS:
+- On to the next one.
+- Keep that ball rolling.
+- Hang in there.
+- Let's try this next one.
+- All right.
+- Sure.
+- Sure thing.
+- Ok.
+- Thats okay, let's try another.
+- Skipping away.
+- Okey dokes. Let's hop over to the next one.
+SOME_CORRECT_PROMPTS:
+- And that's the end of $session.params.title. Thanks for sticking with me through
+  all the rounds. You got $session.params.score out of $session.params.limit
+  matches correct. Practice makes perfect.
+- Congratulations. You made it to the end of $session.params.title. According
+  to my calculations, you got $session.params.score out of $session.params.limit
+  correct.
+- You've done it. You completed all the rounds of $session.params.title. You
+  answered $session.params.score out of $session.params.limit correctly.
+  These games take practice.
+- 'And just like that, you finished $session.params.title, and answered $session.params.score
+  out of $session.params.limit correctly. That''s somewhere between zero and
+  a perfect score. So way to go! '
+TRUE_CHIPS:
+- "True"
+TRY_AGAIN_CHIPS:
+- Try again
+TRY_OR_HINT_PROMPTS:
+- Want a hint?
+- Want to get a hint?
+- Would you like a hint?
+- I can give you a hint for this one. Want to hear it?
+- Do you want a hint?
+WRONG_ANSWER_FOR_QUESTION_PROMPTS:
+- Not for this one, but remember that for later.
+WRONG_ANSWER_PROMPTS_1:
+- Sorry.
+- That's not it.
+- Not for this one.
+- Not quite.
+- Sorry, not for this one.
+- 'Nope. '
+- Nope, that's not it.
+WRONG_ANSWER_PROMPTS_2:
+- The answer is, $session.params.previousAnswer.
+YES_CHIPS:
+- "Yes"

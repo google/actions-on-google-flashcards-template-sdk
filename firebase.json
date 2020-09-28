@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "source": "functions",
+    "ignore": [
+      "**/__tests__/**",
+      "**/.nyc_output/**",
+      "**/coverage/**",
+      "**/doc/**"
+    ]
+  }
+}

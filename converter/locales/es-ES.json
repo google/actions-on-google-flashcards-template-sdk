@@ -1,0 +1,479 @@
+{
+  "actions": {
+    "custom": {
+      "actions.intent.MAIN": {},
+      "actions.intent.PLAY_GAME": {}
+    }
+  },
+  "intents": {
+    "DontKnow": {
+      "trainingPhrases": [
+        "no lo sé",
+        "no sé",
+        "no me la sé",
+        "me rindo",
+        "abandono",
+        "desisto",
+        "no me lo sé",
+        "esa no me la sé",
+        "eso no lo sé",
+        "esa no la sé",
+        "no me sé esa pregunta",
+        "esta no la sé",
+        "no me sé la respuesta",
+        "quién sabe",
+        "vete a saber",
+        "ve tú a saber",
+        "no lo sé eso",
+        "no estoy seguro",
+        "no estoy segura",
+        "ni idea",
+        "no sé la respuesta",
+        "no conozco la respuesta",
+        "ni flowers",
+        "no tengo ni idea",
+        "ni la menor idea",
+        "yo qué sé",
+        "no puedo contestarte",
+        "no puedo contestarte a eso",
+        "no puedo responderte",
+        "no sé la respuesta",
+        "no conozco la respuesta",
+        "no tengo la menor idea",
+        "no tengo ni la menor idea"
+      ]
+    },
+    "Help": {
+      "trainingPhrases": [
+        "¿Qué debería hacer?",
+        "¿Cómo funciona el juego?",
+        "¿Cómo se juega?",
+        "¿Cómo funciona este juego?",
+        "Ayuda",
+        "Ayúdame",
+        "¿Qué debo hacer?",
+        "¿Qué hago?"
+      ]
+    },
+    "Hint": {
+      "trainingPhrases": [
+        "Pista",
+        "pista",
+        "¿me puedes dar una pista?",
+        "¿me das una pista?",
+        "¿me das una pista, por favor?",
+        "¿una pista puede ser?",
+        "¿puedo pedir una pista?",
+        "¿me podrías dar una pista?",
+        "¿cuál es la respuesta?",
+        "¿cuál es la solución?",
+        "¿me dices la respuesta?",
+        "¿me puedes dar una pista?",
+        "¿me das una pista?",
+        "¿por qué no me das una pista?",
+        "¿y si me das una pista?",
+        "obtener una pista",
+        "recribir una pista",
+        "quiero una pista",
+        "dime una pista"
+      ]
+    },
+    "No": {
+      "trainingPhrases": [
+        "Estoy bien",
+        "No",
+        "No me apetece jugar",
+        "Hasta pronto",
+        "No quiero",
+        "Adiós",
+        "No quiero jugar",
+        "Negativo"
+      ]
+    },
+    "Quit": {
+      "trainingPhrases": [
+        "Dejar de jugar",
+        "No me apetece jugar más",
+        "Para el juego",
+        "No quiero jugar más",
+        "Parar",
+        "Salir",
+        "Cancelar",
+        "Detener",
+        "Cerrar"
+      ]
+    },
+    "Repeat": {
+      "trainingPhrases": [
+        "¿Puedes repetir?",
+        "Repetir",
+        "¿Me lo repites?",
+        "Por favor, repite",
+        "Repetir la pregunta",
+        "Repite la pregunta",
+        "Repite",
+        "Repítelo",
+        "¿Puedes repetirlo?",
+        "¿Podrías repetirlo?",
+        "No lo he oído",
+        "Repetir"
+      ]
+    },
+    "Restart": {
+      "trainingPhrases": [
+        "Reiniciar el juego",
+        "Reiniciar",
+        "Volver a jugar",
+        "Volver a empezar"
+      ]
+    },
+    "Skip": {
+      "trainingPhrases": [
+        "Saltar esta pregunta",
+        "Omitir esta",
+        "Omitir esta pregunta",
+        "Saltar esta",
+        "Siguiente pregunta",
+        "siguiente",
+        "seguir",
+        "próxima",
+        "pasa",
+        "dame otra",
+        "dime otra",
+        "pregúntame otra",
+        "pasar esta",
+        "saltar esta",
+        "omitir esta",
+        "saltar esta pregunta",
+        "ignorar esta pregunta",
+        "omitir esta pregunta",
+        "omitir",
+        "saltar",
+        "pasar",
+        "pregunta siguiente",
+        "siguiente pregunta",
+        "pasa a la siguiente",
+        "paso"
+      ]
+    },
+    "Start": {
+      "trainingPhrases": [
+        "Comenzar",
+        "Empezar",
+        "Me muero de ganas",
+        "Vale, vamos a jugar",
+        "No puedo esperar",
+        "Vamos"
+      ]
+    },
+    "TryAgain": {
+      "trainingPhrases": [
+        "Volver a intentar",
+        "Reintentar",
+        "sí, quiero probar",
+        "sí, quiero intentarlo",
+        "sí, voy a probar",
+        "quiero probarlo",
+        "quiero intentarlo",
+        "voy a probar",
+        "otra vez",
+        "una vez más",
+        "repetimos",
+        "sí, otra vez",
+        "sí, una vez más",
+        "sí, repetimos",
+        "vale, otra vez",
+        "vale, una vez más",
+        "de acuerdo, otra vez",
+        "vale, lo probamos otra vez",
+        "vale, lo intento otra vez",
+        "vale, lo pruebo otra vez",
+        "sí, quiero probar otra vez",
+        "sí, quiero intentarlo de nuevo",
+        "sí, quiero probar de nuevo",
+        "¿puedo probar otra vez?",
+        "¿puedo volverlo a intentar?",
+        "¿puedo probarlo otra vez?",
+        "¿puedo probarlo otra vez?",
+        "quiero intentar la pregunta anterior otra vez",
+        "quiero probar la pregunta anterior otra vez",
+        "quiero intentar otra vez la pregunta de antes",
+        "quiero probar una vez más",
+        "quiero intentarlo una vez más",
+        "quiero probarlo una vez más",
+        "otra",
+        "quiero probar otra vez",
+        "quiero probar de nuevo",
+        "quiero intentarlo otra vez",
+        "probar otra vez",
+        "probar de nuevo",
+        "intentar otra vez"
+      ]
+    },
+    "Yes": {
+      "trainingPhrases": [
+        "¿Por qué no?",
+        "OK",
+        "Sí",
+        "Sin duda",
+        "Venga",
+        "Por supuesto",
+        "Claro",
+        "Probablemente",
+        "Definitivamente",
+        "Evidentemente",
+        "Seguro"
+      ]
+    }
+  },
+  "types": {
+    "answer": {
+      "synonym": {}
+    }
+  },
+  "strings": {
+    "GREETING_PROMPTS_1": [
+      "¡Te doy la bienvenida a $session.params.title!"
+    ],
+    "GREETING_PROMPTS_2": [
+      "Te doy la bienvenida de nuevo a $session.params.title.",
+      "¡Genial! Has vuelto a $session.params.title."
+    ],
+    "INTRODUCTION_PROMPTS": [
+      "Vamos a activar esa memoria.",
+      "A ver si podemos activar esa memoria."
+    ],
+    "INSTRUCTION_PROMPTS": [
+      "En esta partida, te plantearé algunas preguntas sobre $session.params.questionTitle. "
+    ],
+    "FIRST_ROUND_PROMPTS": [
+      "Aquí tienes la primera pregunta.",
+      "Bueno, ahí va la primera:",
+      "Venga, pregunta número uno.",
+      "Aquí va la primera.",
+      "Esta es la primera.",
+      "¡Vamos al lío! "
+    ],
+    "NEXT_QUESTION_PROMPTS": [
+      "Probemos con otra.",
+      "Ahí va la siguiente.",
+      "Aquí tienes otra.",
+      "Aquí tienes la siguiente.",
+      "Vamos a probar con otra.",
+      "Prueba con esta.",
+      "A ver qué te parece esta.",
+      "Siguiente pregunta.",
+      "La siguiente.",
+      "Aquí tienes la siguiente pregunta."
+    ],
+    "I_DONT_KNOW_PROMPTS": [
+      "Vale."
+    ],
+    "WRONG_ANSWER_PROMPTS_1": [
+      "Lo siento.",
+      "La respuesta no es correcta.",
+      "Esta vez no has acertado.",
+      "Vaya, no es así.",
+      "Lo siento, la respuesta no es correcta.",
+      "Vaya, no es correcto. ",
+      "No has acertado."
+    ],
+    "WRONG_ANSWER_PROMPTS_2": [
+      "La respuesta es $session.params.previousAnswer."
+    ],
+    "CONFIRMATION_PROMPTS": [
+      "Perfecto.",
+      "Vale."
+    ],
+    "HINT_PROMPTS": [
+      "Esta es la pista: $session.params.currentQuestion.hint",
+      "Ahí va la pista: $session.params.currentQuestion.hint",
+      "$session.params.currentQuestion.hint"
+    ],
+    "HINT_QUESTION_PROMPTS": [
+      "¿Qué crees que es?",
+      "Entonces, ¿cuál es tu respuesta?"
+    ],
+    "RE_PROMPTS": [
+      "Vale, vamos a probar otra vez.",
+      "Muy bien, allá vamos de nuevo.",
+      "¿Por qué no lo intentamos otra vez?"
+    ],
+    "WRONG_ANSWER_FOR_QUESTION_PROMPTS": [
+      "No es la respuesta correcta, pero recuérdala para más tarde."
+    ],
+    "QUIT_PROMPTS": [
+      "Me lo he pasado genial contigo. ¡Espero que pronto podamos repetirlo!",
+      "Nos vemos la próxima vez. Estaré por aquí, solo tienes que preguntar por mí.",
+      "¡Que vaya bien! Espero verte pronto de nuevo.",
+      "Vale. Nos vemos la próxima vez.",
+      "Perfecto, lo dejamos por ahora. ¡Hasta pronto!",
+      "¡Nos vemos la próxima vez!",
+      "Espero que pronto podamos jugar de nuevo."
+    ],
+    "PLAY_AGAIN_QUESTION_PROMPTS": [
+      "¿Quieres probar con otras preguntas?"
+    ],
+    "NO_MATCH_PROMPTS_2": [
+      "Sigo sin entenderte. Te repito la pregunta: $session.params.currentQuestion.question"
+    ],
+    "NO_MATCH_PROMPTS_3": [
+      "Como todavía tengo algunos problemas, lo dejaremos aquí. Vuelve a intentarlo dentro de unos minutos."
+    ],
+    "REPEAT_PROMPTS": [
+      "Por supuesto.",
+      "Vale.",
+      "Sin problema."
+    ],
+    "SKIP_PROMPTS": [
+      "Pasemos a la siguiente.",
+      "Veamos la siguiente.",
+      "Pasemos de esta.",
+      "Probemos con la siguiente.",
+      "Vale, no pasa nada.",
+      "Perfecto, como quieras.",
+      "De acuerdo, no te preocupes.",
+      "Vale.",
+      "Me parece bien, probemos con otra.",
+      "Venga, nos la saltamos.",
+      "Sin problema. Veamos mejor qué nos depara la siguiente."
+    ],
+    "FEELING_LUCKY_PROMPTS_1": [
+      "¡Buenas noticias! Parece que vas a tener suerte. Por esta vez, te voy a dar la respuesta a una de las preguntas. A la de una, a la de dos... ¡y a la de tres! La respuesta para \"$session.params.currentQuestion.question\" es $session.params.currentQuestion.answers. Creo que va siendo hora de pasar a la siguiente."
+    ],
+    "FEELING_LUCKY_PROMPTS_2": [
+      "Lo siento, pero parece que tu buena suerte se ha acabado. Solo puedo darte la respuesta a una pregunta por partida. Pero seguro que puedes apañártelas para responder a esta pregunta. Sigamos."
+    ],
+    "TRY_OR_HINT_PROMPTS": [
+      "¿Quieres una pista?",
+      "¿Quieres que te dé una pista?",
+      "¿Te gustaría que te diera una pista?",
+      "Puedo ayudarte con una pista. ¿Te la digo?",
+      "¿Necesitas una pista?"
+    ],
+    "AGAIN_HINT_PROMPTS": [
+      "¿Quieres probar de nuevo o que te dé una pista?",
+      "¿Quieres que te dé una pista o probar de nuevo?",
+      "¿Te gustaría que te diera una pista?",
+      "¿Prefieres que te dé una pista o volver a intentarlo?",
+      "¿Prefieres una pista o un nuevo intento?",
+      "Puedo darte una pista, pero también puedes intentarlo de nuevo. ¿Qué prefieres? "
+    ],
+    "NO_HINT_PROMPTS": [
+      "Lo siento, no tengo ninguna pista. Te repito la pregunta:"
+    ],
+    "NO_MORE_HINT_PROMPTS": [
+      "Lo siento, no puedo darte más pistas. Te repito la pregunta:"
+    ],
+    "SILLY_ANSWER_PROMPTS": [
+      "Ya veo tu respuesta, pero no es correcta."
+    ],
+    "RIGHT_ANSWER_PROMPTS_1": [
+      "¡Perfecto! Eso es.",
+      "¡Bingo! Es correcto.",
+      "¡Bien!",
+      "¡Buen trabajo!",
+      "¡Olé ahí!",
+      "¡Genial!",
+      "¡Bien dicho!",
+      "¡Bien dicho! Así se hace.",
+      "¡Qué nivel! Bien dicho.",
+      "¡Estupendo! Bien dicho.",
+      "¡Lo has bordado!",
+      "Parece que has acertado.",
+      "¡La has clavado! ",
+      "¡Eso es! Te felicito.",
+      "Buena respuesta.",
+      "Perfecto. ¡Así se hace!",
+      "Correcto. ¡Excelente trabajo!",
+      "¡Coooorrecto!",
+      "¡Así es!",
+      "Correcto. ¡Buen trabajo!",
+      "¡Has acertado!",
+      "Sí, ¡justo era eso!",
+      "¡Exacto!",
+      "¡Muy bien! Bien dicho.",
+      "Sí, ¡correcto!",
+      "Eso es. ¡Bien dicho!",
+      "¡Buena respuesta!",
+      "¡Muy bien, eso es!",
+      "¡Has acertado!",
+      "¡Has acertado la respuesta!",
+      "¡Un aplauso! Buen trabajo.",
+      "¡Justo la respuesta correcta! Así se hace.",
+      "¡Correcto!"
+    ],
+    "DISAGREE_PROMPTS": [
+      "Lo he comprobado y la respuesta es correcta."
+    ],
+    "NONE_CORRECT_PROMPTS": [
+      "Bueno, ya has llegado al final de $session.params.title. Todavía no has acertado ninguna de las respuestas, pero no te preocupes. Puedes practicar siempre que quieras.",
+      "Esta ronda de $session.params.title ha sido un poco dura. De momento ninguna respuesta ha sido correcta, pero no te desesperes."
+    ],
+    "SOME_CORRECT_PROMPTS": [
+      "Y hasta aquí llega $session.params.title. ¡Gracias por estar conmigo hasta el final! Has conseguido $session.params.score respuestas correctas de un total de $session.params.limit. La práctica hace al maestro.",
+      "¡Enhorabuena! Has llegado al final de $session.params.title. Según mis cálculos, has conseguido $session.params.score respuestas correctas de un total de $session.params.limit.",
+      "¡Lo has conseguido! Has completado todas las rondas de $session.params.title. Has respondido correctamente a $session.params.score preguntas de un total de $session.params.limit. ¡Estos juegos requieren práctica!",
+      "Como quien no quiere la cosa, has acabado $session.params.title. Has respondido correctamente $session.params.score preguntas de $session.params.limit. Estás entre cero y una puntuación perfecta. ¡Ese es el espíritu! "
+    ],
+    "ALL_CORRECT_PROMPTS": [
+      "¡No me lo puedo creer! Después de $session.params.limit rondas, has acertado todas las preguntas. ¡Eres un hacha! Desde luego, tus esfuerzos han valido la pena. ¿Te hago la ola?",
+      "¿Quieres que te dé buenas noticias? La has clavado en las $session.params.limit preguntas. Déjame que te haga una última pregunta. ¿Sabes qué hora es? ¡Es hora de celebrarlo!",
+      "¡Atención, atención! Se hace saber que has ganado todas y cada una de las rondas, y que has conseguido responder a $session.params.limit preguntas correctamente. ¡Enhorabuena por haberlo hecho tan bien!"
+    ],
+    "END_PROMPTS": [
+      "Vale. Tu puntuación es $session.params.score de $session.params.limit. Espero que vuelvas a practicar pronto. ¡Hasta luego!"
+    ],
+    "HELP_PROMPTS": [
+      "Así es cómo se juega. Primero, te planteo una pregunta. Luego esperaré a que me des una respuesta. Si no se te ocurre nada, puedes pedirme una pista o saltarte la pregunta. Hay $session.params.limit rondas de preguntas. También puedes empezar una partida nueva, detener la actual o pedir que te repita la pregunta. ¿Quieres continuar?",
+      "Te explico cómo va. Cuando te haga una pregunta, dame la respuesta que creas más conveniente. Si no se te ocurre ninguna, puedes pedirme una pista o saltarte la pregunta. Hay $session.params.limit rondas de preguntas. También puedes empezar una partida nueva, detener la actual o pedir que te repita la pregunta. ¿Quieres continuar?"
+    ],
+    "LETS_PLAY_PROMPTS": [
+      "¿Todo listo para jugar?",
+      "¿Empezamos?"
+    ],
+    "FINAL_ROUND_PROMPTS": [
+      "Y, por último:",
+      "Y, finalmente:"
+    ],
+    "NO_INPUT_PROMPTS_1": [
+      "Te repito la pregunta: $session.params.currentQuestion.question"
+    ],
+    "NO_INPUT_PROMPTS_2": [
+      "Si has dicho algo, no lo he oído bien. Esta es la pregunta: $session.params.currentQuestion.question"
+    ],
+    "NO_INPUT_PROMPTS_3": [
+      "Creo que tengo algún problemilla. Vamos a dejarlo aquí. Vuelve a intentarlo dentro de unos minutos."
+    ],
+    "FALLBACK_PROMPTS_1": [
+      "¿Has acabado de jugar?",
+      "¿Quieres que lo dejemos por ahora?",
+      "¿Has acabado?"
+    ],
+    "YES_CHIPS": [
+      "Sí"
+    ],
+    "NO_CHIPS": [
+      "No"
+    ],
+    "TRUE_CHIPS": [
+      "Verdadero"
+    ],
+    "FALSE_CHIPS": [
+      "Falso"
+    ],
+    "HINT_CHIPS": [
+      "Pista"
+    ],
+    "TRY_AGAIN_CHIPS": [
+      "Volver a intentar"
+    ]
+  },
+  "settings": {
+    "localizedSettings": {
+      "displayName": "muestra de tarjetas flash europa",
+      "pronunciation": "muestra de tarjetas flash europa",
+      "voice": "female_1"
+    }
+  }
+}
