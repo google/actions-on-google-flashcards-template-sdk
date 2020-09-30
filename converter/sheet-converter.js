@@ -87,13 +87,16 @@ class SheetConverter {
       const colIdx = rows[headerRowIdx].findIndex(
         (val) => val.toLowerCase().trim() === colDef.displayName.toLowerCase().trim()
       );
-      if (colIdx === -1 && colDef.isRequired) {
-        throw new Error(
-          `Tab:${tab.displayName} Header:${colDef.displayName} is required but not found.`
-        );
+      if (colIdx === -1) {
+        if (colDef.isRequired) {
+          throw new Error(
+            `Tab:${tab.displayName} Header:${colDef.displayName} is required but not found.`
+          );
+        }
+      } else {
+        idxToColDef[colIdx] = colDef;
+        validColIndices.push(colIdx);
       }
-      idxToColDef[colIdx] = colDef;
-      validColIndices.push(colIdx);
     }
 
     const output = [];
