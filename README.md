@@ -21,7 +21,7 @@ Before you begin the migration, perform the following steps:
    - The webhook runtime requires Node.js version 10 or later.
 
 2. Install the [Firebase CLI](https://developers.google.com/assistant/conversational/df-asdk/deploy-fulfillment).
-   - We recommend that you install it with MAJOR version 8. To do so, run the following command `npm install -g firebase-tools@^8.0.0`.
+   - We recommend that you install it with MAJOR version 8. To do so, run the following command: `npm install -g firebase-tools@^8.0.0`.
    - Run `firebase login` with your Google account.
 
 3. Install the [Actions CLI](https://developers.google.com/assistant/actionssdk/gactions).
@@ -41,14 +41,15 @@ Before you begin the migration, perform the following steps:
 
 From the [Actions on Google Console](https://console.actions.google.com/), select **New project&nbsp;> Create project** and then select **What kind of Action do you want to build?&nbsp;> Game&nbsp;> Blank project**.
 
-- To find your Project ID, go to the Actions Console for your project and navigate to **More ⋮&nbsp;> Project settings&nbsp;> Project ID**.
-- Be careful not to mix the Project ID with the Project Name.
+After the new project has been created, you should see the Actions Builder console. To find your Project ID, navigate to **More ⋮&nbsp;> Project settings&nbsp;> Project ID**.
+
+> Be careful not to mix the Project ID with the Project Name.
 
 ### Upgrade Firebase pricing plan
 
 From the [Firebase Console](https://console.firebase.google.com/), select the same newly created project from Actions Console and upgrade its pricing plan to **Blaze (pay as you go)**.
 
-- A Blaze plan is required for the Cloud Functions with Node.js version 10 runtime.
+> A Blaze plan is required for the Cloud Functions with Node.js version 10 runtime.
 
 ## Step 3: Migration
 
@@ -85,7 +86,7 @@ Open `converter/config.js` and update the `LOCALE_TO_SHEET_ID` mapping with your
 - The Sheet ID can be located in the sheet URL: `https://docs.google.com/spreadsheets/d/`**`<SHEET_ID>`**`/edit#gid=0`.
 - Uncomment the specific locales you want to convert.
 - The sheet IDs provided in `converter/config.js` are the default sample sheets for each locale. To create a brand new Flash Cards action, make a copy of the sample sheet and update it with your own data.
-- Make sure the data sheet is owned by the same Google account that is performing the migration.
+- Make sure the data sheet is owned by the same Google account that's performing the migration.
 
 After you've updated the sheet ID, you have two options for how to proceed with the migration.
 
@@ -93,7 +94,7 @@ After you've updated the sheet ID, you have two options for how to proceed with 
 
 To automatically run all the migration steps, run `./build.sh <PROJECT_ID>` from the root directory of this project.
 
-- On the initial run, the script asks you to grant read access to your sheets. To do so, you must visit the provided URL and copy the authorization code back after you accept read access. If you see a **This app isn't verified** warning page, click **Advanced** to show the drop down text. Then click **Go to Quickstart (unsafe)** to continue the authorization process.
+- On the initial run, the script asks you to grant read access to your sheets. To do so, you must visit the provided URL and copy the authorization code back after you accept read access. If you see a warning page that states "This app isn't verified", click **Advanced** to show the drop down text. Then, click **Go to Quickstart (unsafe)** to continue the authorization process.
 - Alternatively, you can follow the [manual migration steps](#option-2-manual-migration-steps) to perform the migration.
 
 ### (Option 2) Manual migration steps
@@ -105,7 +106,7 @@ To manually migrate your project, perform the steps given in the following three
 1. Navigate to the `converter/` directory. To do so, run `cd converter` from the root directory of this project.
 2. Run `npm install`.
 3. Run `npm run convert -- --project_id <PROJECT_ID>`.
-   - On the initial run, the script asks you to grant read access to your sheets. To do so, you must visit the provided URL and copy the authorization code back after you accept read access. If you see a **This app isn't verified** warning page, click **Advanced** to show the drop down text. Then click **Go to Quickstart (unsafe)** to continue the authorization process.
+   - On the initial run, the script asks you to grant read access to your sheets. To do so, you must visit the provided URL and copy the authorization code back after you accept read access. If you see a warning page that states "This app isn't verified", click **Advanced** to show the drop down text. Then, click **Go to Quickstart (unsafe)** to continue the authorization process.
    - After the conversion script finishes, the parsed sheet data is added to the `functions/data/` directory, while locale-specific data is added to the `sdk/` directory.
 
 #### Deploy the webhook to Cloud Functions for Firebase
@@ -121,7 +122,7 @@ To manually migrate your project, perform the steps given in the following three
 2. To login to your Google account, run `gactions login`.
 3. To push your project, run `gactions push`.
    - To fix the validation warnings, update the missing Directory information in the **Deploy** section of the Actions Console.
-   - (Optional) If you need to sync the changes made in the Actions Builder Console with your local `sdk/` directory, you can run `gactions pull`.
+   - If you need to sync the changes made in the Actions Builder Console with your local `sdk/` directory, you can run `gactions pull`.
 4. To deploy your project to the preview environment, run `gactions deploy preview`.
 
 ## Step 4: Test the converted action
