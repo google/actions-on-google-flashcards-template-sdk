@@ -34,33 +34,13 @@ const config = {
   QUESTIONS_PER_GAME_DEFAULT: 5,
   QUESTION_TITLE_DEFAULT: 'Question Title',
   ANSWER_TITLE_DEFAULT: 'Answer Title',
-  AUDIO_DING_DEFAULT: [
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Trivia-Bot_Sounds_TriviaDing.ogg',
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Trivia-Bot_Sounds_TriviaDing2.ogg',
-  ],
-  AUDIO_GAME_INTRO_DEFAULT: [
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/RobotIntro_Shortened1.ogg',
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/RobotIntro_Shortened2.ogg',
-  ],
-  AUDIO_GAME_OUTRO_DEFAULT: [
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/RobotOutro_Shortened_v1.ogg',
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/RobotOutro_Shortened_v2.ogg',
-  ],
-  AUDIO_CORRECT_DEFAULT: [
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Robot%20Template%20Correct%20Ding%201.ogg',
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Robot%20Template%20Correct%20Ding%202.ogg',
-  ],
-  AUDIO_INCORRECT_DEFAULT: [
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Robot%20Template%20Incorrect%20Buzz%201.ogg',
-  ],
-  AUDIO_ROUND_END_DEFAULT: [
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Trivia-Bot_Sounds_EndOfRound.ogg',
-  ],
-  AUDIO_CALCULATING_DEFAULT: [
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Robot%20Template%20Sounds%20Calc%201.ogg',
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Robot%20Template%20Sounds%20Calc%202.ogg',
-    'https://storage.googleapis.com/actionsprod.appspot.com/sounds/Robot%20Template%20Sounds%20Calc%203.ogg',
-  ],
+  AUDIO_DING_DEFAULT: ['https://actions.google.com/sounds/v1/cartoon/instrument_strum.ogg'],
+  AUDIO_GAME_INTRO_DEFAULT: [],
+  AUDIO_GAME_OUTRO_DEFAULT: [],
+  AUDIO_CORRECT_DEFAULT: ['https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg'],
+  AUDIO_INCORRECT_DEFAULT: ['https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg'],
+  AUDIO_ROUND_END_DEFAULT: [],
+  AUDIO_CALCULATING_DEFAULT: ['https://actions.google.com/sounds/v1/cartoon/woodpecker.ogg'],
   RANDOMIZE_QUESTIONS_DEFAULT: true,
   GOOGLE_ANALYTICS_TRACKING_ID_DEFAULT: '',
   QUIT_PROMPT_DEFAULT: '',

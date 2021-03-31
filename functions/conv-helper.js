@@ -169,9 +169,7 @@ class ConvHelper {
    */
   getRandomSsmlAudio(key) {
     const audioSources = this.conv.session.params[key];
-    if (!Array.isArray(audioSources) || audioSources.length === 0) {
-      throw new Error(`No audio sources found in conv.session.params for key: ${key}`);
-    }
+    if (!Array.isArray(audioSources) || audioSources.length === 0) return '';
     return util.ssml.audioTag(util.array.randomPick(audioSources));
   }
 

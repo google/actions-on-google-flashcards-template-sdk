@@ -309,18 +309,22 @@ describe('ConvHelper', function() {
 
   describe('getRandomSsmlAudio', function() {
     it('returns a random selected SSML audio tag based on input key', function() {
-      const output = convHelper.getRandomSsmlAudio(Alias.QUIZ_SETTINGS.AUDIO_GAME_INTRO);
+      const output = convHelper.getRandomSsmlAudio(Alias.QUIZ_SETTINGS.AUDIO_CORRECT);
       expect(output).to.be.a('string');
       expect(output.includes('<audio src=')).to.be.true;
     });
 
-    it('throws an error if input key does not exist in conv.session.params', function() {
-      expect(() => convHelper.getRandomSsmlAudio('xyz123')).to.throw();
+    it('returns empty string if input key does not exist in conv.session.params', function() {
+      const output = convHelper.getRandomSsmlAudio('xyz123');
+      expect(output).to.be.a('string');
+      expect(output).to.equal('');
     });
 
-    it('throws an error if input key has is an empty array in conv.session.params', function() {
-      fakeConv.session.params[Alias.QUIZ_SETTINGS.AUDIO_GAME_INTRO] = [];
-      expect(() => convHelper.getRandomSsmlAudio('xyz123')).to.throw();
+    it('returns empty string if input key is an empty array in conv.session.params', function() {
+      fakeConv.session.params[Alias.QUIZ_SETTINGS.AUDIO_CORRECT_DEFAULT] = [];
+      const output = convHelper.getRandomSsmlAudio(Alias.QUIZ_SETTINGS.AUDIO_GAME_INTRO);
+      expect(output).to.be.a('string');
+      expect(output).to.equal('');
     });
   });
 
